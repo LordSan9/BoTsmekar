@@ -1,7 +1,7 @@
 <?php 
 ob_start(); 
-$token = "5118166854:AAHUjjb4iiD1CKC3LG9qPxx83ZtSEWXIaXQ"; # Token
-$user_bot_sudo="Meggacrebot";
+$token = "5597319843:AAE0aEjolfWE9fbiWYl_fUj3Tb7QfGRO7LE"; # Token
+$user_bot_sudo="QMbbot";
 define("API_KEY", $token);
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -41,8 +41,8 @@ $message_id = $up->message->message_id;
 $data = $up->data;
 }
 $id = $update->inline_query->from->id; 
-$sudo = array("2107933548");
-$wathq1 = 2107933548; 
+$sudo = array("5336448904");
+$wathq1 = 5336448904; 
 mkdir("sudo");
 $get_ban=file_get_contents('sudo/ban.txt');
 $ban =explode("\n",$get_ban);
