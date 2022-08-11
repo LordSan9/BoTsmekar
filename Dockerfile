@@ -18,4 +18,4 @@ COPY . /app
 WORKDIR /app
 
 
-CMD php san3.php
+CMD php Market.php
