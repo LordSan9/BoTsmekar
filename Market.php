@@ -7,7 +7,7 @@ By : @D_C_D_D
 */
 
 ob_start();
-$token = '5103049162:AAE49wuhia1kV7X81wjujdVLbrMOGWw6BxM';
+$token = '5597319843:AAE0aEjolfWE9fbiWYl_fUj3Tb7QfGRO7LE';
 define('API_KEY',$token);
 echo "انسى";
 function bot($method,$datas=[]){
@@ -32,7 +32,7 @@ if(isset($update->callback_query)){
   $data     = $update->callback_query->data;
  $user = $update->callback_query->from->username;
 }
-$admin = 5156261167;
+$admin = 5597319843;
 $me = bot('getme',['bot'])->result->username;
 $sales = json_decode(file_get_contents('sales.json'),1);
 # @uuuuhu #
