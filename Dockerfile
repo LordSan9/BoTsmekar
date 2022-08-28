@@ -7,4 +7,4 @@ RUN add-apt-repository ppa:ondrej/php -y
 
 
 
-CMD php Market.php
+CMD php Fgh.php
